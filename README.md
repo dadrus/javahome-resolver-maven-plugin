@@ -17,7 +17,7 @@ choosen JDK. Thus this plugin was born.
 - exports a `javaHome` property which has the same value as the configured `JAVA_HOME` environment variable.
 
 ## Limitations
-The plugin does not integration with eclipse properly. I was unable to find out how to force eclipse to refilter affected ressources.
+The plugin does not integrate with eclipse properly. I was unable to find out how to force eclipse to refilter affected ressources.
 
 ##Usage
 You should add "javahome-resolver-maven-plugin" to your `<build>` configuration. The default lifecycle phase is `validate`. The plugin has a single goal - `resolve`.
